@@ -1,0 +1,305 @@
+* {
+    font-family: cursive, Impact, Haettenschweiler, "Arial Narrow Bold",
+        sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+.navbar-nav:first-child {
+    margin: 0px 30px;
+}
+
+.image-container {
+    position: relative;
+    /* width: 100%;
+    height: 600px; */
+}
+
+.image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 42px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.paketler-baslik {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.section2 {
+    height: 400px;
+    background-color: #0079ff;
+}
+
+.product-card .img-wrap {
+    height: 295px;
+    padding: 0.5rem;
+    display: block;
+    text-align: center;
+}
+
+.product-card img {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.product-card .checked {
+    color: orange;
+}
+
+.product-card .title {
+    text-decoration: none;
+    color: #212529;
+}
+
+.product-card .price {
+    color: orange;
+    font-size: 22px;
+}
+
+.product-card .rating {
+    font-size: 13px;
+}
+
+.index-footer {
+    height: 200px;
+    background-color: #afc8ad;
+}
+
+/*===================CONTACT MODAL ======================*/
+#contactModal {
+    position: fixed;
+    margin: auto;
+    height: 800px;
+
+}
+
+#contactModalCloseBtn{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.contactTextarea {
+    resize: none;
+}
+
+/*===================CONTACT MODAL BITTI======================*/
+
+.loginModalSection1 img {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+#girisModal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    width: 600px;
+}
+.fbbutton{
+    margin-right: 200px;
+}
+.fbbutton:hover {
+    background-color: white;
+    color: blue;
+    box-shadow: 0px 4px 4px 0px blue;
+}
+
+.googlebutton:hover {
+    background-color: white;
+    color: blue;
+    box-shadow: 0px 4px 4px 0px blue;
+}
+
+.fbbutton,
+.googlebutton {
+    height: 100px;
+    width: 100px;
+}
+
+.form {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.loginGirisBtn {
+    display: block;
+    margin: 10px auto;
+    height: 50px;
+    width: 200px;
+}
+
+.loginGirisBtn:hover {
+    background-color: white;
+    color: blue;
+    box-shadow: 0px 4px 4px 0px blue;
+}
+
+.loginModalSection2 {
+    display: block;
+    margin: auto;
+}
+
+/*===================LOGIN MODAL BITTI======================*/
+
+.kayitolBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 8px 24px blue;
+}
+
+.kayitolBox h3 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive, Impact, Haettenschweiler, "Arial Narrow Bold",
+        sans-serif;
+    padding: 45px;
+}
+
+.kayitolInputs {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.kayitolInputs input {
+    width: 80%;
+    height: 5vh;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #f4f6f9;
+}
+
+.kayitolInputs input::placeholder {
+    padding: 10px;
+}
+
+#kayitOlBtn {
+    width: 80%;
+    height: 5vh;
+    border-radius: 30px;
+    background: blue;
+    color: white;
+    border: none;
+    box-shadow: 0px 8px 15px blue;
+    cursor: pointer;
+}
+
+.kayitolBox p {
+    text-align: center;
+    font-family: cursive, Impact, Haettenschweiler, "Arial Narrow Bold",
+        sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.kayitolBox p span {
+    color: blue;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ln {
+    margin: auto;
+    width: 70%;
+    height: 1px;
+    background: blue;
+    margin-top: 50px;
+}
+
+.kayitolBox h5 {
+    font-family: cursive, Impact, Haettenschweiler, "Arial Narrow Bold",
+        sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.kayitOlIcons {
+    text-align: center;
+}
+
+/* .kayitOlSection1 img {
+    width: 200px;
+    display: block;
+    margin: auto;
+} */
+
+/*=================A1-MODAL==================00*/
+/* Modal stilini ayarla */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Modal içeriği */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+/* Modal kapatma düğmesi */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*=================A1-MODAL==================00*/
+/* Modal stilini ayarla */

@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yabancı Dil Eğitim Sistemi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body style="background-color: white">
+
+  <!-- Giriş Yap Modal -->
+  <div id="girisModal" class="modal">
+    <div class="modal-content">
+      <span id="closeGirisModalBtn" class="close">&times;</span>
+      <section class="loginModalSection1">
+        <img src="images/logo.png" alt="Logo" />
+        <hr />
+      </section>
+      <section class="loginModalSection2">
+        <div class="container text-center">
+          <div class="row row-cols-4">
+            <div class="col"></div>
+            <div class="col">
+              <button type="button" class="btn btn-secondary d-md-block fbbutton">
+                <i class="fa-brands fa-facebook"></i> Facebook ile Giriş Yap
+              </button>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-secondary d-md-block googlebutton">
+                <i class="fa-brands fa-google"></i> Google ile Giriş Yap
+              </button>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col">
+              <hr />
+            </div>
+            <div class="col">ya da</div>
+            <div class="col">
+              <hr />
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+          </div>
+        </div>
+        <div class="mt-3 form">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-Posta Adresin " />
+        </div>
+        <div class="form">
+          <label for="inputPassword5" class="form-label"></label>
+          <input type="password" id="inputPassword5" class="form-control" placeholder="Şifren" />
+        </div>
+        <button class="btn loginGirisBtn btn-primary">Giriş Yap</button>
+      </section>
+    </div>
+  </div>
+  </div>
+
+  <!-- Üye Ol Modal -->
+  <div id="uyeOlModal" class="modal">
+    <div class="kayitolBox">
+      <span id="closeUyeOlModalBtn" class="close">&times;</span>
+      <h3>Üye Ol</h3>
+        <div class="kayitolInputs">
+          <input type="text" placeholder="İsim" required /><br /><br />
+          <input type="email" placeholder="Email" required /><br /><br />
+          <input type="password" placeholder="Şifre" required /><br /><br />
+          <button id="kayitOlBtn" class="btn btn-primary">Üye Ol</button>
+        </div>
+        <p>
+          Zaten bir hesabınız var mı?
+          <a href="#girisModal" data-bs-toggle="modal" data-bs-dismiss="modal"> <span>Giriş Yapın</span></a>
+        </p>
+        <div class="ln"></div>
+        <h5>ya da Bunlar ile Üye Ol</h5>
+        <div class="kayitOlIcons">
+          <a href=""><i class="fab fa-facebook-f" style="width: 35px"></i></a>
+          <a href=""><i class="fab fa-google" style="width: 35px"></i></a>
+        </div>
+      </div>
+  </div>
+
+  <!-- Contact modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span id="contactModalCloseBtn">&times;</span>
+      <main>
+        <div class="container my-4 contactContainer">
+          <h2 class="my-3">İletişime Geçin</h2>
+          <div class="row g-2">
+            <div class="col-md-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.8482710597173!2d27.81530187586769!3d41.18147647132682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b4e745bc85d6bf%3A0xf06945ec414379c0!2sT.C.%20Nam%C4%B1k%20Kemal%20%C3%9Cniversitesi%20%C3%87orlu%20M%C3%BChendislik%20Fak%C3%BCltesi!5e0!3m2!1str!2str!4v1715353378027!5m2!1str!2str"
+                width="600" height="480" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6">
+              <div class="card bg-primary">
+                <div class="card-body">
+                  <div class="alert alert-warning">Lütfen formu doldurunuz!</div>
+                  <form class="row g-3 text-white">
+                    <div class="col-md-6">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" name="email" id="email" class="form-control"
+                        placeholder="Email Giriniz" />
+                    </div>
+                    <div class="col-md-6">
+                      <label for="name" class="form-label">İsim</label>
+                      <input type="text" name="name" id="name" class="form-control"
+                        placeholder="İsminizi Giriniz" />
+                    </div>
+                    <div class="col-md-12">
+                      <label for="name" class="form-label">Telefon</label>
+                      <input type="text" name="Phone" id="Phone" class="form-control"
+                        placeholder="Numaranızı Giriniz" />
+                    </div>
+                    <div class="col-md-12">
+                      <label for="subject" class="form-label">Konu</label>
+                      <input type="text" name="subject" id="subject" class="form-control" placeholder="Konu" />
+                    </div>
+                    <div class="col-md-12">
+                      <label for="message" class="form-label">Mesaj</label>
+                      <textarea name="message" id="message" class="form-control contactTextarea"
+                        placeholder="Mesajınız Giriniz"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn btn-secondary" style="width: 100%">
+                        Gönder
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- A1 Modal -->
+  <div id="A1Modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtn" class="close">&times;</span>
+      <div class="a1-div">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col mt-2">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <img src="images/a1hikaye.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/a1türkce.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/inglove.jpg" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card text-bg-dark mb-3 mt-2">
+                <div class="card-header" style="font-size: 30px; font-weight: 600" id="a1" style="height: 550px;">
+                  A1 Seviye Kelimeler
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <div class="d-flex">
+                    <table class="table table-hover table-dark ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Apple</td>
+                          <td>Elma</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="table table-hover ms-2 table-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Apple</td>
+                          <td>Elma</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="a1-test-buttons mt-2" style="display: flex; justify-content: center;">
+              <button class="btn btn-primary me-2" id="a1TestStart">Test Çöz</button>
+              <button class="btn btn-primary">Kelime Testi Çöz</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+
+  <!-- A2 Modal -->
+  <div id="A2Modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtnA2" class="close">&times;</span>
+      <div class="a2-div">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col mt-2">
+              <div id="carouselExampleIndicators1" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <img src="images/a2hikaye.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/a2türkce.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/inglove.jpg" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card text-bg-dark mb-3 mt-2">
+                <div class="card-header" style="font-size: 30px; font-weight: 600" id="a1" style="height: 550px;">
+                  A2 Seviye Kelimeler
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <div class="d-flex">
+                    <table class="table table-hover table-dark ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Bicycle</td>
+                          <td>Bisiklet</td>
+                        </tr>
+                        <tr>
+                          <td>Cheap</td>
+                          <td>Ucuz</td>
+                        </tr>
+                        <tr>
+                          <td>Delicious</td>
+                          <td>Lezzetli</td>
+                        </tr>
+                        <tr>
+                          <td>Heyecanlı</td>
+                          <td>Excited</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="table table-hover ms-2 table-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Apple</td>
+                          <td>Elma</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="a1-test-buttons mt-2" style="display: flex; justify-content: center;">
+              <button class="btn btn-primary me-2">Test Çöz</button>
+              <button class="btn btn-primary">Kelime Testi Çöz</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+
+  <!-- B1 Modal -->
+  <div id="B1Modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtnB1" class="close">&times;</span>
+      <div class="b1-div">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col mt-2">
+              <div id="carouselExampleIndicators2" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <img src="images/b1hikaye.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/b1türkce.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/inglove.jpg" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card text-bg-dark mb-3 mt-2">
+                <div class="card-header" style="font-size: 30px; font-weight: 600" id="a1" style="height: 550px;">
+                  B1 Seviye Kelimeler
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <div class="d-flex">
+                    <table class="table table-hover table-dark ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Osman</td>
+                          <td>Bay</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="table table-hover ms-2 table-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Apple</td>
+                          <td>Elma</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="b1-test-buttons mt-2" style="display: flex; justify-content: center;">
+              <button class="btn btn-primary me-2">Test Çöz</button>
+              <button class="btn btn-primary">Kelime Testi Çöz</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+
+  <!-- B2 Modal -->
+  <div id="B2Modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtnB2" class="close">&times;</span>
+      <div class="b2-div">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col mt-2">
+              <div id="carouselExampleIndicators3" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <img src="images/b2hikaye.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/b2türkce.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/inglove.jpg" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card text-bg-dark mb-3 mt-2">
+                <div class="card-header" style="font-size: 30px; font-weight: 600" id="b2" style="height: 550px;">
+                  B2 Seviye Kelimeler
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <div class="d-flex">
+                    <table class="table table-hover table-dark ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Osman</td>
+                          <td>Bay</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="table table-hover ms-2 table-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Apple</td>
+                          <td>Elma</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="b2-test-buttons mt-2" style="display: flex; justify-content: center;">
+              <button class="btn btn-primary me-2">Test Çöz</button>
+              <button class="btn btn-primary">Kelime Testi Çöz</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+
+  <!-- C1 Modal-->
+  <div id="C1Modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtnC1" class="close">&times;</span>
+      <div class="c1-div">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col mt-2">
+              <div id="carouselExampleIndicators4" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <img src="images/c1hikaye.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/c1türkce.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/inglove.jpg" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card text-bg-dark mb-3 mt-2">
+                <div class="card-header" style="font-size: 30px; font-weight: 600" id="c1" style="height: 550px;">
+                  C1 Seviye Kelimeler
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <div class="d-flex">
+                    <table class="table table-hover table-dark ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Osman</td>
+                          <td>Bay</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="table table-hover ms-2 table-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Apple</td>
+                          <td>Elma</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c1-test-buttons mt-2" style="display: flex; justify-content: center;">
+              <button class="btn btn-primary me-2">Test Çöz</button>
+              <button class="btn btn-primary">Kelime Testi Çöz</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+
+  <!-- C2 Modal -->
+  <div id="C2Modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModalBtnC2" class="close">&times;</span>
+      <div class="c2-div">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col mt-2">
+              <div id="carouselExampleIndicators5" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item">
+                    <img src="images/c1hikaye.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/c1türkce.png" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="images/inglove.jpg" class="d-block w-100" alt="..." style="height: 550px" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card text-bg-dark mb-3 mt-2">
+                <div class="card-header" style="font-size: 30px; font-weight: 600" id="c2" style="height: 550px;">
+                  C2 Seviye Kelimeler
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <div class="d-flex">
+                    <table class="table table-hover table-dark ">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Osman</td>
+                          <td>Bay</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="table table-hover ms-2 table-dark">
+                      <thead>
+                        <tr>
+                          <th scope="col">Kelime</th>
+                          <th scope="col">Anlamı</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Apple</td>
+                          <td>Elma</td>
+                        </tr>
+                        <tr>
+                          <td>Book</td>
+                          <td>Kitap</td>
+                        </tr>
+                        <tr>
+                          <td>Cat</td>
+                          <td>Kedi</td>
+                        </tr>
+                        <tr>
+                          <td>Dog</td>
+                          <td>Köpek</td>
+                        </tr>
+                        <tr>
+                          <td>Egg</td>
+                          <td>Yumurta</td>
+                        </tr>
+                        <tr>
+                          <td>Family</td>
+                          <td>Aile</td>
+                        </tr>
+                        <tr>
+                          <td>Girl</td>
+                          <td>Kız</td>
+                        </tr>
+                        <tr>
+                          <td>House</td>
+                          <td>Ev</td>
+                        </tr>
+                        <tr>
+                          <td>Ice</td>
+                          <td>Buz</td>
+                        </tr>
+                        <tr>
+                          <td>Juice</td>
+                          <td>Meyve Suyu</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c2-test-buttons mt-2" style="display: flex; justify-content: center;">
+              <button class="btn btn-primary me-2">Test Çöz</button>
+              <button class="btn btn-primary">Kelime Testi Çöz</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+
+
+
+  <section>
+    <nav class="navbar navbar-expand-lg" style="height: 80px">
+      <div class="container-fluid" style="margin-left: 100px;">
+        <img src="images/logo.png" alt="" style="width: 200px" />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+            <li class="nav-item">
+              <a href="#loginModal">
+                <button class="btn" id="uyeGirisBtn">
+                  <i class="fas fa-user-circle" style="color: gray; font-size: 20px;"></i> Üye Girişi
+                </button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#signupModal">
+                <button class="btn btn-primary" id="uyeOlBtn">
+                  ÜCRETSİZ ÜYE OL
+                </button></a>
+            </li>
+            <li style="margin-left: 600px">
+              <img src="images/türk.png" alt="" width="60px" />
+            </li>
+            <li style="margin-left: 10px">
+              <img src="images/america.png" alt="" width="60px" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <div class="image-container">
+    <img src="images/ingilizce2.webp" alt="" class="image" />
+
+    <div class="text-overlay" id="dynamicText"></div>
+  </div>
+  <section class="a-paketleri">
+    <h2 class="paketler-baslik">İngilizce Dil Seviye Paketleri</h2>
+
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card product-card mb-3 shadow">
+            <div class="row g-0">
+              <div class="col-xl-3 col-md-4">
+                <a href="#" class="img-wrap">
+                  <img src="images/seviye1.png" alt="" />
+                </a>
+              </div>
+              <div class="col-xl-9 col-md-8 border-start">
+                <div class="card-body">
+                  <a href="#" class="h6 mb-3 title" style="font-weight: bold; color: #80bcbd">
+                    A1 Seviye (Başlangıç)
+                  </a>
+                  <br /><br />
+                  <div class="mb-2">
+                    <span class="text-primary">Dil öğrenmek isteyen kişiler yeni bir dili öğrenmeye
+                      başlarken bu seviyede bulunurlar.</span>
+                  </div>
+                  <br />
+
+                  <div class="d-grid gap-2 d-md-block">
+                    <a href="#A1Modal" class="btn btn-primary " id="A1Open">
+                      <i class="fa-solid fa-magnifying-glass" style="color: white; margin-right: 10px"></i>İncele
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card mb-3 shadow">
+            <div class="row g-0">
+              <div class="col-xl-3 col-md-4">
+                <a href="#" class="img-wrap">
+                  <img src="images/seviye1.png" alt="" />
+                </a>
+              </div>
+              <div class="col-xl-9 col-md-8 border-start">
+                <div class="card-body">
+                  <a href="#" class="h6 mb-3 title" style="font-weight: bold; color: #4f6f52">
+                    A2 Seviye (Temel)
+                  </a>
+                  <br /><br />
+                  <div class="mb-2">
+                    <span class="text-primary">Başlangıç seviyesinin bir adım ilerisi olarak kabul
+                      edilir ve dil öğrenen kişi bu seviyede temel dil
+                      becerilerini geliştirmeye devam ederken, daha karmaşık
+                      konular ve durumlarla başa çıkabilme yeteneğini de
+                      kazanır.</span>
+                  </div>
+                  <br />
+
+                  <div class="d-grid gap-2 d-md-block">
+                    <a href="#A2Modal" class="btn btn-primary" id="A2Open">
+                      <i class="fa-solid fa-magnifying-glass" style="color: white; margin-right: 10px"></i>İncele
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col" style="color: white">
+          <img src="images/dünya.png" alt="" width="370px" style="margin: 70px; border-radius: 50%" />
+        </div>
+        <div class="col" style="color: white">
+          <h4 style="margin-top: 70px">
+            Dünyada en çok kullanılan dil: İNGİLİZCE
+          </h4>
+          <br />
+          <ol style="text-align: left">
+            <li>Evrensel iletişim dili olarak kabul edilir.</li>
+            <li>
+              Birçok akademik ve bilimsel kaynak İngilizce olarak yazılır;
+              dünyada pek çok üniversite eğitimlerini İngilizce sunar.
+            </li>
+            <li>
+              İngilizce bilmek, uluslararası iş piyasasında rekabet avantajı
+              sağlar ve daha fazla iş fırsatı sunar.
+            </li>
+            <li>
+              İngilizce, internet ve teknoloji alanında yaygın olarak
+              kullanılır.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section3">
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card product-card mb-3 shadow">
+            <div class="row g-0">
+              <div class="col-xl-3 col-md-4">
+                <a href="#" class="img-wrap">
+                  <img src="images/seviye1.png" alt="" />
+                </a>
+              </div>
+              <div class="col-xl-9 col-md-8 border-start">
+                <div class="card-body">
+                  <a href="#" class="h6 mb-3 title" style="font-weight: bold; color: #f4ce14">
+                    B1 Seviye (Orta Üstü)
+                  </a>
+                  <br /><br />
+                  <div class="mb-2">
+                    <span class="text-primary">B1 seviyesinde, dil öğrenen kişi, daha karmaşık cümle
+                      yapıları ve çeşitli konularda daha geniş bir kelime
+                      dağarcığı kullanarak iletişim kurabilir.</span>
+                  </div>
+                  <br />
+
+                  <div class="d-grid gap-2 d-md-block">
+                    <a href="#B1Modal" class="btn btn-primary" id="B1Open">
+                      <i class="fa-solid fa-magnifying-glass" style="color: white; margin-right: 10px"></i>İncele
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card mb-3 shadow">
+            <div class="row g-0">
+              <div class="col-xl-3 col-md-4">
+                <a href="#" class="img-wrap">
+                  <img src="images/seviye1.png" alt="" />
+                </a>
+              </div>
+              <div class="col-xl-9 col-md-8 border-start">
+                <div class="card-body">
+                  <a href="#" class="h6 mb-3 title" style="font-weight: bold; color: #f9b572">
+                    B2 Seviye (İleri)
+                  </a>
+                  <br /><br />
+                  <div class="mb-2">
+                    <span class="text-primary">Bu seviyede olan bir kişi, dili bağımsız bir şekilde
+                      etkin bir şekilde kullanabilir ve dilde daha karmaşık ve
+                      çeşitli konularda iletişim kurabilecek bir yetkinliğe
+                      sahiptir.</span>
+                  </div>
+                  <br />
+
+                  <div class="d-grid gap-2 d-md-block">
+                    <a href="#B2Modal" class="btn btn-primary" id="B2Open">
+                      <i class="fa-solid fa-magnifying-glass" style="color: white; margin-right: 10px"></i>İncele
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col" style="color: white">
+          <img src="images/logo.png" alt="" width="500px" style="margin: 100px" />
+        </div>
+        <div class="col" style="color: white">
+          <h4 style="margin-top: 60px">Nasıl Öğretiyoruz?</h4>
+          <br />
+
+          <ol style="text-align: left">
+            <li>Kullanıcı Odaklı Öğrenme</li>
+            <li>Öğrenmekte Olduğu Kelimeleri Takip</li>
+            <li>Geri Bildirim ve İzleme</li>
+            <li>Devamlı Geliştirme</li>
+            <li>Özel Ezberleme Formülleri</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section4">
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card product-card mb-3 shadow">
+            <div class="row g-0">
+              <div class="col-xl-3 col-md-4">
+                <a href="#" class="img-wrap">
+                  <img src="images/seviye1.png" alt="" />
+                </a>
+              </div>
+              <div class="col-xl-9 col-md-8 border-start">
+                <div class="card-body">
+                  <a href="#" class="h6 mb-3 title" style="font-weight: bold; color: #b0578d">
+                    C1 Seviye (Gelişmiş)
+                  </a>
+                  <br /><br />
+                  <div class="mb-2">
+                    <span class="text-primary">C1 seviyesinde olan bir kişi, dili akıcı ve doğal bir
+                      şekilde kullanabilir, karmaşık konularda etkin bir
+                      şekilde iletişim kurabilir ve yüksek düzeyde okuma,
+                      yazma, dinleme ve konuşma becerilerine sahiptir.</span>
+                  </div>
+                  <br />
+
+                  <div class="d-grid gap-2 d-md-block">
+                    <a href="#C1Modal" class="btn btn-primary" id="C1Open">
+                      <i class="fa-solid fa-magnifying-glass" style="color: white; margin-right: 10px"></i>İncele
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card mb-3 shadow">
+            <div class="row g-0">
+              <div class="col-xl-3 col-md-4">
+                <a href="#" class="img-wrap">
+                  <img src="images/seviye1.png" alt="" />
+                </a>
+              </div>
+              <div class="col-xl-9 col-md-8 border-start">
+                <div class="card-body">
+                  <a href="#" class="h6 mb-3 title" style="font-weight: bold; color: #5b0888">
+                    C2 Seviye (Bilimsel)
+                  </a>
+                  <br /><br />
+                  <div class="mb-2">
+                    <span class="text-primary">Bu seviyede olan bir kişi, anadili İngilizce olan bir
+                      kişi kadar akıcı ve etkin bir şekilde iletişim kurabilir
+                      ve dili son derece karmaşık konularda ustalıkla
+                      kullanabilir. Makale vs. bilimsel metinlerde kullanılan
+                      dildir.</span>
+                  </div>
+                  <br />
+
+                  <div class="d-grid gap-2 d-md-block">
+                    <a href="#C2Modal" class="btn btn-primary" id="C2Open">
+                      <i class="fa-solid fa-magnifying-glass" style="color: white; margin-right: 10px"></i>İncele
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr />
+
+  <footer class="index-footer">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="images/logo.png" alt="" style="margin-top: 40px" />
+        </div>
+        <div class="col">
+          <p style="
+                color: black;
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 10px;
+              ">
+            Sosyal Medya
+          </p>
+          <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"
+              style="margin-left: 5px; font-size: 36px"></i></a>
+          <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"
+              style="margin-left: 5px; font-size: 36px"></i></a>
+          <a href="https://instagram.com/">
+            <i class="fa-brands fa-instagram" style="margin-left: 5px; font-size: 36px"></i></a>
+        </div>
+        <div class="col">
+          <p style="
+                color: black;
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 10px;
+              ">
+            Bunny Word Academy
+          </p>
+          <ul style="list-style-type: none">
+            <li>
+              <a href="#contactModal" id="contactBtn" style="text-decoration: none; color: blue">İletişim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,461 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication8.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplication8.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylecontact.css",
+      "PackagePath": "staticwebassets\\css\\stylecontact.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylegiris.css",
+      "PackagePath": "staticwebassets\\css\\stylegiris.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylekayitol.css",
+      "PackagePath": "staticwebassets\\css\\stylekayitol.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylekelimea1.css",
+      "PackagePath": "staticwebassets\\css\\stylekelimea1.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylekelimea2.css",
+      "PackagePath": "staticwebassets\\css\\stylekelimea2.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylekelimeb1.css",
+      "PackagePath": "staticwebassets\\css\\stylekelimeb1.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylekelimeb2.css",
+      "PackagePath": "staticwebassets\\css\\stylekelimeb2.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylekelimec1.css",
+      "PackagePath": "staticwebassets\\css\\stylekelimec1.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylekelimec2.css",
+      "PackagePath": "staticwebassets\\css\\stylekelimec2.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\stylepaketler.css",
+      "PackagePath": "staticwebassets\\css\\stylepaketler.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\styletesta1.css",
+      "PackagePath": "staticwebassets\\css\\styletesta1.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\styletesta2.css",
+      "PackagePath": "staticwebassets\\css\\styletesta2.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\styletestb1.css",
+      "PackagePath": "staticwebassets\\css\\styletestb1.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\styletestb2.css",
+      "PackagePath": "staticwebassets\\css\\styletestb2.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\styletestc1.css",
+      "PackagePath": "staticwebassets\\css\\styletestc1.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\css\\styletestc2.css",
+      "PackagePath": "staticwebassets\\css\\styletestc2.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\a1hikaye.png",
+      "PackagePath": "staticwebassets\\images\\a1hikaye.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\a1türkce.png",
+      "PackagePath": "staticwebassets\\images\\a1türkce.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\a2hikaye.png",
+      "PackagePath": "staticwebassets\\images\\a2hikaye.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\a2türkce.png",
+      "PackagePath": "staticwebassets\\images\\a2türkce.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\america.png",
+      "PackagePath": "staticwebassets\\images\\america.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\b1hikaye.png",
+      "PackagePath": "staticwebassets\\images\\b1hikaye.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\b1türkce.png",
+      "PackagePath": "staticwebassets\\images\\b1türkce.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\b2hikaye.png",
+      "PackagePath": "staticwebassets\\images\\b2hikaye.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\b2türkce.png",
+      "PackagePath": "staticwebassets\\images\\b2türkce.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\bayrak.jpg",
+      "PackagePath": "staticwebassets\\images\\bayrak.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\c1hikaye.png",
+      "PackagePath": "staticwebassets\\images\\c1hikaye.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\c1türce.png",
+      "PackagePath": "staticwebassets\\images\\c1türce.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\c2hikaye.png",
+      "PackagePath": "staticwebassets\\images\\c2hikaye.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\c2türkce.png",
+      "PackagePath": "staticwebassets\\images\\c2türkce.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\dünya.png",
+      "PackagePath": "staticwebassets\\images\\dünya.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\ingilizce2.webp",
+      "PackagePath": "staticwebassets\\images\\ingilizce2.webp"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\inglove.jpg",
+      "PackagePath": "staticwebassets\\images\\inglove.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\seviye1.png",
+      "PackagePath": "staticwebassets\\images\\seviye1.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\images\\türk.png",
+      "PackagePath": "staticwebassets\\images\\türk.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scriptkelimea2.js",
+      "PackagePath": "staticwebassets\\js\\scriptkelimea2.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scriptkelimeb1.js",
+      "PackagePath": "staticwebassets\\js\\scriptkelimeb1.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scriptkelimeb2.js",
+      "PackagePath": "staticwebassets\\js\\scriptkelimeb2.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scriptkelimec1.js",
+      "PackagePath": "staticwebassets\\js\\scriptkelimec1.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scriptkelimec2.js",
+      "PackagePath": "staticwebassets\\js\\scriptkelimec2.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scripttesta1.js",
+      "PackagePath": "staticwebassets\\js\\scripttesta1.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scripttesta2.js",
+      "PackagePath": "staticwebassets\\js\\scripttesta2.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scripttestb1.js",
+      "PackagePath": "staticwebassets\\js\\scripttestb1.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scripttestb2.js",
+      "PackagePath": "staticwebassets\\js\\scripttestb2.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scripttestc1.js",
+      "PackagePath": "staticwebassets\\js\\scripttestc1.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\scripttestc2.js",
+      "PackagePath": "staticwebassets\\js\\scripttestc2.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali1\\Desktop\\WebApplication8\\WebApplication8\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplication8.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplication8.props",
+      "PackagePath": "build\\WebApplication8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication8.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplication8.props",
+      "PackagePath": "buildTransitive\\WebApplication8.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

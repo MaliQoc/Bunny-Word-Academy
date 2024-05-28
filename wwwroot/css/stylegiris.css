@@ -1,0 +1,40 @@
+.section1 img {
+  width: 200px;
+
+  display: block;
+  margin: auto;
+}
+.fbbutton:hover {
+  background-color: white;
+  color: blue;
+  box-shadow: 4px 4px 8px 6px blue;
+}
+.googlebutton:hover {
+  background-color: white;
+  color: blue;
+  box-shadow: 4px 4px 8px 6px blue;
+}
+.btn1 {
+  height: 50px;
+  display: block;
+}
+.form {
+  width: 700px;
+  display: block;
+  margin: auto;
+}
+.btn2 {
+  display: block;
+  margin: 10px auto;
+  height: 50px;
+  width: 200px;
+}
+.btn2:hover {
+  background-color: white;
+  color: blue;
+  box-shadow: 4px 4px 8px 6px blue;
+}
+.section2 {
+  display: block;
+  margin: auto;
+}

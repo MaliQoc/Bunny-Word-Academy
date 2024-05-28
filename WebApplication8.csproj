@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="wwwroot\images\inglove.jpg" />
+    <None Remove="wwwroot\images\logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\a1hikaye.png" />
+    <None Include="wwwroot\images\a1türkce.png" />
+    <None Include="wwwroot\images\a2hikaye.png" />
+    <None Include="wwwroot\images\a2türkce.png" />
+    <None Include="wwwroot\images\america.png" />
+    <None Include="wwwroot\images\b1hikaye.png" />
+    <None Include="wwwroot\images\b1türkce.png" />
+    <None Include="wwwroot\images\b2hikaye.png" />
+    <None Include="wwwroot\images\b2türkce.png" />
+    <None Include="wwwroot\images\bayrak.jpg" />
+    <None Include="wwwroot\images\c1hikaye.png" />
+    <None Include="wwwroot\images\c1türce.png" />
+    <None Include="wwwroot\images\c2hikaye.png" />
+    <None Include="wwwroot\images\c2türkce.png" />
+    <None Include="wwwroot\images\dünya.png" />
+    <None Include="wwwroot\images\ingilizce2.webp" />
+    <None Include="wwwroot\images\seviye1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\türk.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt" Version="1.0.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="wwwroot\images\inglove.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+    <Page Include="wwwroot\images\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>

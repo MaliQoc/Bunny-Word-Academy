@@ -52,8 +52,34 @@ namespace WebApplication8.Controllers
             {
                 return View();
             }
-
-
+        public IActionResult Packages()
+        {
+            return View();
+        }
+        public IActionResult A1T()
+        {
+            return View();
+        }
+        public IActionResult A2T()
+        {
+            return View();
+        }
+        public IActionResult B1T()
+        {
+            return View();  
+        }
+        public IActionResult B2T()
+        {
+            return View();
+        }
+        public IActionResult C1T()
+        {
+            return View();
+        }
+        public IActionResult C2T()
+        {
+            return View();
+        }
             [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
             public IActionResult Error()
             {

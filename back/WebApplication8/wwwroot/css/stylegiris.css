@@ -16,7 +16,9 @@
 }
 .btn1 {
   height: 50px;
+
   display: block;
+  margin: auto;
 }
 .form {
   width: 700px;

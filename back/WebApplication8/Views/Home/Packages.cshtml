@@ -1,0 +1,797 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylepaketler.css" />
+    <title>Seviye Paketleri</title>
+</head>
+<body style="background-color: white">
+    <section>
+        <img src="images/logo.png" alt="" />
+    </section>
+    <hr />
+
+    <div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col mt-2">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="~/images/a1hikaye.png"
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="~/images/a1türkce.png"
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="~/images/inglove.jpg "
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-bg-dark mb-3 mt-2" style="height: 650px">
+                        <div class="card-header"
+                             style="font-size: 30px; font-weight: 600"
+                             id="a1">
+                            A1 Seviye Kelimeler
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <div>
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <div class="col">
+                                            <ul style="list-style-type: none">
+                                                <li>Apple (elma)</li>
+                                                <li>Book (kitap)</li>
+                                                <li>Cat (kedi)</li>
+                                                <li>Dog (köpek)</li>
+                                                <li>Egg (yumurta)</li>
+                                                <li>Family (aile)</li>
+                                                <li>Girl (kız)</li>
+                                                <li>House (ev)</li>
+                                                <li>Ice (buz)</li>
+                                                <li>Juice (meyve suyu)</li>
+
+                                                <a href="/Home/A1" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                       Kelime Test çöz
+                                                    </button>
+                                                </a>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col">
+                                            <ul style="list-style-type: none">
+                                                <li>Kitchen (mutfak)</li>
+                                                <li>Love (sevgi)</li>
+                                                <li>Mother (anne)</li>
+                                                <li>Night (gece)</li>
+                                                <li>Orange (portakal)</li>
+                                                <li>Pen (kalem)</li>
+                                                <li>Queen (kraliçe)</li>
+                                                <li>Road (yol)</li>
+                                                <li>Sun (güneş)</li>
+                                                <li>Tree (ağaç)</li>
+                                                <a href="/Home/A1T" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                        Test çöz
+                                                    </button>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col mt-2">
+                    <div id="carouselExampleIndicators1" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators1"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators1"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators1"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="~/images/a2hikaye.png"
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="~/images/a2türkce.png"
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="~/images/inglove.jpg "
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators1"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators1"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-bg-dark mb-3 mt-2" style="height: 650px">
+                        <div class="card-header"
+                             style="font-size: 30px; font-weight: 600">
+                            A2 Seviye Kelimeler
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <div>
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <div class="col">
+                                            <ul style="list-style-type: none">
+                                                <li>Bicycle (bisiklet)</li>
+                                                <li>Cheap (ucuz)</li>
+                                                <li>Delicious (lezzetli)</li>
+                                                <li>Excited (heyecanlı)</li>
+                                                <li>Fruit (meyve)</li>
+                                                <li>Grapes (üzüm)</li>
+                                                <li>Hospital (hastane)</li>
+                                                <li>Invitation (davet)</li>
+                                                <li>Journey (yolculuk)</li>
+                                                <li>Kite (uçurtma)</li>
+
+                                                <a href="/Home/A2" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                       Kelime Testi çöz
+                                                    </button>
+                                                </a>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col">
+                                            <ul style="list-style-type: none">
+                                                <li>Luggage (bagaj)</li>
+                                                <li>Mountain (dağ)</li>
+                                                <li>Necklace (kolye)</li>
+                                                <li>Ocean (okyanus)</li>
+                                                <li>Pig (domuz)</li>
+                                                <li>Quiet (sessiz)</li>
+                                                <li>Restaurant (restoran)</li>
+                                                <li>Street (sokak)</li>
+                                                <li>Train (tren)</li>
+                                                <li>Vegetable (sebze)</li>
+                                               <a href="/Home/A2T" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                        testi çöz
+                                                    </button>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col mt-2">
+                    <div id="carouselExampleIndicators2" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators2"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators2"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators2"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="~/images/b1hikaye.png"
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="~/images/b1türkce.png"
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="~/images/inglove.jpg "
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators2"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators2"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-bg-dark mb-3 mt-2" style="height: 650px">
+                        <div class="card-header"
+                             style="font-size: 30px; font-weight: 600">
+                            B1 Seviye Kelimeler
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <div>
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <div class="col">
+                                            <ul style="list-style-type: none">
+                                                <li>Achieve (başarmak)</li>
+                                                <li>Brief (kısa)</li>
+                                                <li>Consume (tüketmek)</li>
+                                                <li>Debate (tartışma)</li>
+                                                <li>Environment (çevre)</li>
+                                                <li>Financial (mali)</li>
+                                                <li>Govern (yönetmek)</li>
+                                                <li>Health (sağlık)</li>
+                                                <li>Influence (etkilemek)</li>
+                                                <li>Journal (günlük)</li>
+
+                                                <a href="/Home/B1" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                       Kelime Testi çöz
+                                                    </button>
+                                                </a>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col">
+                                            <ul style="list-style-type: none">
+                                                <li>Knowledge (bilgi)</li>
+                                                <li>Leisure (boş zaman)</li>
+                                                <li>Minority (azınlık)</li>
+                                                <li>Novel (roman)</li>
+                                                <li>Opportunity (fırsat)</li>
+                                                <li>Pollution (kirlilik)</li>
+                                                <li>Quality (kalite)</li>
+                                                <li>Resource (kaynak)</li>
+                                                <li>Skill (beceri)</li>
+                                                <li>Tradition (gelenek)</li>
+                                                <a href="/Home/B1T" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                        testi çöz
+                                                    </button>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <div>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col mt-2">
+                    <div id="carouselExampleIndicators3" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators3"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators3"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            <button type="button"
+                                    data-bs-target="#carouselExampleIndicators3"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img src="~/images/b2hikaye.png"
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                            <div class="carousel-item">
+                                <img src="~/images/b2türkce.png"
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="~/images/inglove.jpg "
+                                     class="d-block w-100"
+                                     alt="..."
+                                     style="height: 650px" />
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators3"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators3"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                  aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-bg-dark mb-3 mt-2" style="height: 650px">
+                        <div class="card-header"
+                             style="font-size: 30px; font-weight: 600">
+                            B2 Seviye Kelimeler
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <div>
+                                <div class="container text-center">
+                                    <div class="row">
+                                        <div class="col">
+                                            <ul style="list-style-type: none">
+                                                <li>Abstract (soyut)</li>
+                                                <li>Briefing (kısa bilgi)</li>
+                                                <li>Cohesive (birleştirici)</li>
+                                                <li>Diverse (çeşitli)</li>
+                                                <li>Emphasis (vurgu)</li>
+                                                <li>Framework (çerçeve)</li>
+                                                <li>Guideline (kılavuz)</li>
+                                                <li>Hypothesis (hipotez)</li>
+                                                <li>Implant (nakletmek)</li>
+                                                <li>Just (sadece)</li>
+                                                <a href="/Home/B2" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                       Kelime Testi çöz
+                                                    </button>
+                                                </a>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col">
+                                            <ul style="list-style-type: none">
+                                                <li>Mediate (aracılık)</li>
+                                                <li>Negotiate (müzakere)</li>
+                                                <li>Overseas (yurt dışı)</li>
+                                                <li>Profundity (derinlik)</li>
+                                                <li>Rational
+                                                    <li>Significant (önemli)</li>
+                          <li>Transitional (geçiş)</li>
+                          <li>Undermine (sabotaj)</li>
+                          <li>Validate (onaylamak)</li>
+                          <li>Widespread (yaygın)</li>
+                          <a href="/Home/B2T" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                        testi çöz
+                                                    </button>
+                                                </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col mt-2">
+            <div id="carouselExampleIndicators4" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators4"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators4"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators4"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img src="~/images/c1hikaye.png"
+                    class="d-block w-100"
+                    alt="..."
+                    style="height: 650px"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="~/images/c1türce.png"
+                    class="d-block w-100"
+                    alt="..."
+                    style="height: 650px"
+                  />
+                </div>
+                <div class="carousel-item active">
+                                <img src="~/images/inglove.jpg "
+                    class="d-block w-100"
+                    alt="..."
+                    style="height: 650px"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators4"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators4"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card text-bg-dark mb-3 mt-2" style="height: 650px">
+              <div
+                class="card-header"
+                style="font-size: 30px; font-weight: 600"
+              >
+                C1 Seviye Kelimeler
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <div>
+                  <div class="container text-center">
+                    <div class="row">
+                      <div class="col">
+                        <ul style="list-style-type: none">
+                          <li>Articulate (açık seçik)</li>
+                          <li>Complacency (ilgisiz)</li>
+                          <li>Deteriorate (kötüleşmek)</li>
+                          <li>Endeavour (çaba)</li>
+                          <li>Feasibility (uygulanabilirlik)</li>
+                          <li>Gratify (memnun etmek)</li>
+                          <li>Hierarchy (hiyerarşi)</li>
+                          <li>Implication (ima)</li>
+                          <li>Liaison (bağlantı)</li>
+                          <li>Mitigate (hafifletmek)</li>
+
+                                                <a href="/Home/C1" class="btn btn-primary">
+                            <button class="btn btn-primary mt-1">
+                              Kelime testi çöz
+                            </button></a
+                          >
+                        </ul>
+                      </div>
+
+                      <div class="col">
+                        <ul style="list-style-type: none">
+                          <li>Nonetheless (yine de)</li>
+                          <li>Paradigm (paradigma)</li>
+                          <li>Quintessence (öz)</li>
+                          <li>Resilience (dayanıklılık)</li>
+                          <li>Scrutinize (incelemek)</li>
+                          <li>Tangible (somut)</li>
+                          <li>Unheard-of (eşsiz)</li>
+                          <li>Viable (yaşayabilir)</li>
+                          <li>Wholesome (sağlıklı)</li>
+                          <li>Zeal (şevk, heves)</li>
+                        <a href="/Home/C1T" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                        testi çöz
+                                                    </button>
+                                                </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <div>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col mt-2">
+            <div id="carouselExampleIndicators5" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators5"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators5"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators5"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <img
+                    src="~/images/c2hikaye.png"
+                    class="d-block w-100"
+                    alt="..."
+                    style="height: 650px"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img src="~/images/c2türkce.png"
+                    class="d-block w-100"
+                    alt="..."
+                    style="height: 650px"
+                  />
+                </div>
+                <div class="carousel-item active">
+                  <img src="~/images/inglove.jpg "
+                    class="d-block w-100"
+                    alt="..."
+                    style="height: 650px"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators5"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators5"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card text-bg-dark mb-3 mt-2" style="height: 650px">
+              <div
+                class="card-header"
+                style="font-size: 30px; font-weight: 600"
+              >
+                C2 Seviye Kelimeler
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"></h5>
+                <div>
+                  <div class="container text-center">
+                    <div class="row">
+                      <div class="col">
+                        <ul style="list-style-type: none">
+                          <li>Amalgamate (birleştirmek)</li>
+                          <li>Conundrum (muamma)</li>
+                          <li>Disseminate (yaymak)</li>
+                          <li>Exacerbate (kötüleştirmek)</li>
+                          <li>Facet (yön, cephe)</li>
+                          <li>Grandiose (görkemli)</li>
+                          <li>Holistic (bütüncül)</li>
+                          <li>Incongruous (uygunsuz)</li>
+                          <li>Jurisprudence (hukuk)</li>
+                          <li>Kinesthetic (kinestetik)</li>
+
+                          <a href="/Home/C2" class="btn btn-primary">
+                            <button class="btn btn-primary mt-1">
+                            Kelime testi çöz
+                            </button></a
+                          >
+                        </ul>
+                      </div>
+
+                      <div class="col">
+                        <ul style="list-style-type: none">
+                          <li>Lament (yakınmak)</li>
+                          <li>Meticulous (titiz)</li>
+                          <li>Nebulous (belirsiz)</li>
+                          <li>Obfuscate (şaşırtmak)</li>
+                          <li>Proliferate (çoğaltmak)</li>
+                          <li>Quandary (ikilem)</li>
+                          <li>Substantiate (doğrulamak)</li>
+                          <li>Ubiquitous (her yerde)</li>
+                          <li>Vindicate (aklamak)</li>
+                          <li>Warrant (garanti etmek)</li>
+                                                <a href="/Home/C2T" class="btn btn-primary">
+                                                    <button class="btn btn-primary mt-1">
+                                                        testi çöz
+                                                    </button>
+                                                </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

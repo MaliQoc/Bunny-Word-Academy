@@ -1,9 +1,6 @@
 * {
   font-family: cursive, Impact, Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .button2 {
@@ -95,7 +92,4 @@ h2 {
 footer {
   height: 200px;
   background-color: #afc8ad;
-}
-.nav-item li{
-    width: 70px;
 }
